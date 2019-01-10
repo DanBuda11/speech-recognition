@@ -5,7 +5,7 @@ function speak() {
   const recognition = new webkitSpeechRecognition();
   recognition.contiuous = true;
   recognition.interimResults = true;
-  recognition.lang = 'en-BR';
+  recognition.lang = 'en-US';
   recognition.start();
   
   recognition.onresult = function(e) {
