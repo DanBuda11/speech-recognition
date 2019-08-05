@@ -2,6 +2,7 @@ const startBtn = document.getElementById('start');
 const output = document.getElementById('output');
 
 function speak() {
+  output.textContent = 'Recording...';
   const recognition = new webkitSpeechRecognition();
   recognition.contiuous = true;
   recognition.interimResults = true;
