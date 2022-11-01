@@ -49,4 +49,5 @@ function speakBack() {
 }
 
 startBtn.addEventListener('click', () => speak());
+startBtn.addEventListener('touchstart', () => speak());
 speakBtn.addEventListener('click', () => speakBack());
